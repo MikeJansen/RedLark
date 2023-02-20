@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedLarkLib", "RedLarkLib\RedLarkLib.csproj", "{9D84FFCE-7151-4951-A8FF-F28A45491425}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{053936E9-B09D-4646-81FB-8CE0EF37A217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedLarkLib.Tests", "Tests\RedLarkLib.Tests\RedLarkLib.Tests.csproj", "{A045E98B-64D2-41B7-BF04-0F8E0D4496CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D84FFCE-7151-4951-A8FF-F28A45491425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D84FFCE-7151-4951-A8FF-F28A45491425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D84FFCE-7151-4951-A8FF-F28A45491425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D84FFCE-7151-4951-A8FF-F28A45491425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A045E98B-64D2-41B7-BF04-0F8E0D4496CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A045E98B-64D2-41B7-BF04-0F8E0D4496CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A045E98B-64D2-41B7-BF04-0F8E0D4496CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A045E98B-64D2-41B7-BF04-0F8E0D4496CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A045E98B-64D2-41B7-BF04-0F8E0D4496CC} = {053936E9-B09D-4646-81FB-8CE0EF37A217}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2A92453-6AC5-4D33-AD98-6E48F6CF8B92}
+	EndGlobalSection
+EndGlobal
